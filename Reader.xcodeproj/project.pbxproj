@@ -12,6 +12,19 @@
 		2D1E576C233491FE00C99A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E576A233491FE00C99A50 /* LaunchScreen.storyboard */; };
 		2D1E57742334937700C99A50 /* ReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E57732334937700C99A50 /* ReaderViewController.swift */; };
 		2D1E5776233499B000C99A50 /* Diamond Sutra.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E5775233498A300C99A50 /* Diamond Sutra.txt */; };
+		2D1E57852334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.31.03 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E57782334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.31.03 2.png */; };
+		2D1E57862334CD9300C99A50 /* Screen Shot 2019-09-20 at 12.53.36 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E57792334CD9300C99A50 /* Screen Shot 2019-09-20 at 12.53.36 PM.png */; };
+		2D1E57872334CD9300C99A50 /* Screen Shot 2019-09-20 at 3.31.01 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E577A2334CD9300C99A50 /* Screen Shot 2019-09-20 at 3.31.01 PM.png */; };
+		2D1E57882334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E577B2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.16.png */; };
+		2D1E57892334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.31.03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E577C2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.31.03.png */; };
+		2D1E578A2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.19.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E577D2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.19.png */; };
+		2D1E578B2334CD9300C99A50 /* text_kit_arch_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E577E2334CD9300C99A50 /* text_kit_arch_2x.png */; };
+		2D1E578C2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.57.12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E577F2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.57.12.png */; };
+		2D1E578D2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.22.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E57802334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.22.png */; };
+		2D1E578E2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.57.39.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E57812334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.57.39.png */; };
+		2D1E578F2334CD9300C99A50 /* textkitarchitecture_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E57822334CD9300C99A50 /* textkitarchitecture_2x.png */; };
+		2D1E57902334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.44.23.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E57832334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.44.23.png */; };
+		2D1E57912334CD9300C99A50 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E57842334CD9300C99A50 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		2D1E576D233491FE00C99A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D1E57732334937700C99A50 /* ReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewController.swift; sourceTree = "<group>"; };
 		2D1E5775233498A300C99A50 /* Diamond Sutra.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Diamond Sutra.txt"; sourceTree = "<group>"; };
+		2D1E57782334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.31.03 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.31.03 2.png"; sourceTree = "<group>"; };
+		2D1E57792334CD9300C99A50 /* Screen Shot 2019-09-20 at 12.53.36 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-09-20 at 12.53.36 PM.png"; sourceTree = "<group>"; };
+		2D1E577A2334CD9300C99A50 /* Screen Shot 2019-09-20 at 3.31.01 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-09-20 at 3.31.01 PM.png"; sourceTree = "<group>"; };
+		2D1E577B2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.16.png"; sourceTree = "<group>"; };
+		2D1E577C2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.31.03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.31.03.png"; sourceTree = "<group>"; };
+		2D1E577D2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.19.png"; sourceTree = "<group>"; };
+		2D1E577E2334CD9300C99A50 /* text_kit_arch_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_kit_arch_2x.png; sourceTree = "<group>"; };
+		2D1E577F2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.57.12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.57.12.png"; sourceTree = "<group>"; };
+		2D1E57802334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.22.png"; sourceTree = "<group>"; };
+		2D1E57812334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.57.39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.57.39.png"; sourceTree = "<group>"; };
+		2D1E57822334CD9300C99A50 /* textkitarchitecture_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textkitarchitecture_2x.png; sourceTree = "<group>"; };
+		2D1E57832334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.44.23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.44.23.png"; sourceTree = "<group>"; };
+		2D1E57842334CD9300C99A50 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,15 +80,36 @@
 		2D1E5760233491FC00C99A50 /* Reader */ = {
 			isa = PBXGroup;
 			children = (
+				2D1E57842334CD9300C99A50 /* README.md */,
+				2D1E576D233491FE00C99A50 /* Info.plist */,
 				2D1E5761233491FC00C99A50 /* AppDelegate.swift */,
 				2D1E57732334937700C99A50 /* ReaderViewController.swift */,
-				2D1E5768233491FE00C99A50 /* Assets.xcassets */,
-				2D1E576A233491FE00C99A50 /* LaunchScreen.storyboard */,
-				2D1E576D233491FE00C99A50 /* Info.plist */,
 				2D1E5775233498A300C99A50 /* Diamond Sutra.txt */,
+				2D1E5768233491FE00C99A50 /* Assets.xcassets */,
+				2D1E57772334CD9300C99A50 /* images */,
+				2D1E576A233491FE00C99A50 /* LaunchScreen.storyboard */,
 			);
 			path = Reader;
 			sourceTree = "<group>";
+		};
+		2D1E57772334CD9300C99A50 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2D1E57782334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.31.03 2.png */,
+				2D1E57792334CD9300C99A50 /* Screen Shot 2019-09-20 at 12.53.36 PM.png */,
+				2D1E577A2334CD9300C99A50 /* Screen Shot 2019-09-20 at 3.31.01 PM.png */,
+				2D1E577B2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.16.png */,
+				2D1E577C2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.31.03.png */,
+				2D1E577D2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.19.png */,
+				2D1E577E2334CD9300C99A50 /* text_kit_arch_2x.png */,
+				2D1E577F2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.57.12.png */,
+				2D1E57802334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.22.png */,
+				2D1E57812334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.57.39.png */,
+				2D1E57822334CD9300C99A50 /* textkitarchitecture_2x.png */,
+				2D1E57832334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.44.23.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -122,8 +169,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1E578C2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.57.12.png in Resources */,
+				2D1E57852334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.31.03 2.png in Resources */,
 				2D1E5776233499B000C99A50 /* Diamond Sutra.txt in Resources */,
+				2D1E57902334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.44.23.png in Resources */,
+				2D1E57872334CD9300C99A50 /* Screen Shot 2019-09-20 at 3.31.01 PM.png in Resources */,
+				2D1E578B2334CD9300C99A50 /* text_kit_arch_2x.png in Resources */,
+				2D1E57912334CD9300C99A50 /* README.md in Resources */,
+				2D1E578D2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.22.png in Resources */,
 				2D1E576C233491FE00C99A50 /* LaunchScreen.storyboard in Resources */,
+				2D1E57892334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.31.03.png in Resources */,
+				2D1E57862334CD9300C99A50 /* Screen Shot 2019-09-20 at 12.53.36 PM.png in Resources */,
+				2D1E578A2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.19.png in Resources */,
+				2D1E578F2334CD9300C99A50 /* textkitarchitecture_2x.png in Resources */,
+				2D1E578E2334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 16.57.39.png in Resources */,
+				2D1E57882334CD9300C99A50 /* Simulator Screen Shot - iPhone Xʀ - 2019-09-20 at 11.27.16.png in Resources */,
 				2D1E5769233491FE00C99A50 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
