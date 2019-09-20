@@ -123,7 +123,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 private func fullContent() -> String {
     let url = Bundle.main.url(forResource: "Diamond Sutra", withExtension: "txt")!
     return try! String(contentsOf: url, encoding: .utf8)
-  }
+}
 ```
 
 你可以在 **viewDidLoad()** 中測試 `print(fullContent().count)` 是否會在 console 中印出對應數字，來檢測該函數是否正常運作。
@@ -178,57 +178,57 @@ private func setupReader() {
 }
 ```
 
-1. 第一步是建構一個 NSAttributedString，便於 NSTextStorage 初始化。因為我們已經寫好了 fullContent() 函數，可以直接調用並取得到我們想要填入的文字。attributes 是文字樣式的部分，這裡我們先不處理
+1. 第一步是建構一個 NSAttributedString，便於 NSTextStorage 初始化。因為我們已經寫好了 **fullContent()** 函數，可以直接調用並取得到我們想要填入的文字。attributes 是文字樣式的部分，這裡我們先不處理
 2. 建構我們的 NSTextStorage
 3. 建構我們的 NSLayoutManager，並把它加到 textStorage 中
 
 然後開始處理我們的 TextView 部分，在 code here 中繼續寫入：
 ```swift
-    let viewSize = contentView.bounds.size
-    let textInsets = UIEdgeInsets(top: 16, left: 16, bottom: 16, right: 16)
-    
-    // 1
-    var index: Int = 0
-    var glyphRange: Int = 0
-    var numberOfGlyphs: Int = 0
+let viewSize = contentView.bounds.size
+let textInsets = UIEdgeInsets(top: 16, left: 16, bottom: 16, right: 16)
 
-    repeat {
-      // 2
-      let textContainer = NSTextContainer(size: viewSize)
-      textLayout.addTextContainer(textContainer)
-      
-      // 3
-      let textViewFrame = CGRect(
-        x: CGFloat(index) * viewSize.width,
-        y: 0,
-        width: viewSize.width,
-        height: viewSize.height
-      )
-      
-      // 4
-      let textView = UITextView(
-        frame: textViewFrame,
-        textContainer: textContainer
-      )
-      
-      // 5
-      textView.isEditable = false
-      textView.isSelectable = false
-      textView.textContainerInset = textInsets
-      textView.showsVerticalScrollIndicator = false
-      textView.showsHorizontalScrollIndicator = false
-      textView.isScrollEnabled = false
-      textView.bounces = false
-      textView.bouncesZoom = false
-      
-      // 6
-      textViews.append(textView)
-      contentView.addSubview(textView)
-      
-      // 7
-      index += 1
-      glyphRange = NSMaxRange(textLayout.glyphRange(for: textContainer))
-      numberOfGlyphs = textLayout.numberOfGlyphs
+// 1
+var index: Int = 0
+var glyphRange: Int = 0
+var numberOfGlyphs: Int = 0
+
+repeat {
+  // 2
+  let textContainer = NSTextContainer(size: viewSize)
+  textLayout.addTextContainer(textContainer)
+
+  // 3
+  let textViewFrame = CGRect(
+    x: CGFloat(index) * viewSize.width,
+    y: 0,
+    width: viewSize.width,
+    height: viewSize.height
+  )
+
+  // 4
+  let textView = UITextView(
+    frame: textViewFrame,
+    textContainer: textContainer
+  )
+
+  // 5
+  textView.isEditable = false
+  textView.isSelectable = false
+  textView.textContainerInset = textInsets
+  textView.showsVerticalScrollIndicator = false
+  textView.showsHorizontalScrollIndicator = false
+  textView.isScrollEnabled = false
+  textView.bounces = false
+  textView.bouncesZoom = false
+
+  // 6
+  textViews.append(textView)
+  contentView.addSubview(textView)
+
+  // 7
+  index += 1
+  glyphRange = NSMaxRange(textLayout.glyphRange(for: textContainer))
+  numberOfGlyphs = textLayout.numberOfGlyphs
 } while glyphRange < numberOfGlyphs - 1 // 8
 ```
 
@@ -242,7 +242,7 @@ private func setupReader() {
 7. 通過 glyphRange 可以知道目前字形 glyph 到哪一個點，再與 numberOfGlyphs 比較，就可以判斷中斷條件了
 8. 計算 repeat - while 何時中斷
 
-將 setupReader() 放在 viewDidLoad 中運行：
+將 **setupReader()** 放在 **viewDidLoad** 中運行：
 
 ![](./images/Simulator%20Screen%20Shot%20-%20iPhone%20X%CA%80%20-%202019-09-20%20at%2016.31.03%202.png)
 
@@ -257,20 +257,20 @@ repeat {
 } while while glyphRange < numberOfGlyphs - 1 // 8
 
 contentView.contentSize = CGSize(
-    width: viewSize.width * CGFloat(textViews.count),
-    height: viewSize.height
+  width: viewSize.width * CGFloat(textViews.count),
+  height: viewSize.height
 )
 ```
 
-然後把我們的 setupReader() 從 viewDidLoad() 中拿出，重新在 ReaderViewController 中加入這段代碼：
+然後把我們的 **setupReader()** 從 **viewDidLoad()** 中拿出，重新在 **ReaderViewController** 中加入這段代碼：
 ```swift
 override func viewDidLayoutSubviews() {
-    super.viewDidLayoutSubviews()
-    setupReader()
+  super.viewDidLayoutSubviews()
+  setupReader()
 }
 ```
 
-viewDidLayoutSubviews() 是告訴我們 view 已經把我們底下的 subviews 們都佈局好了，這樣我們就可以取得到正確的 view size 了。
+**viewDidLayoutSubviews()** 是告訴我們 view 已經把我們底下的 subviews 們都佈局好了，這樣我們就可以取得到正確的 view size 了。
 
 ![](./images/Simulator%20Screen%20Shot%20-%20iPhone%20X%CA%80%20-%202019-09-20%20at%2016.44.23.png)
 
@@ -283,13 +283,13 @@ viewDidLayoutSubviews() 是告訴我們 view 已經把我們底下的 subviews �
 - 字體太小了
 - 問題太過緊湊了
 
-先把我們的 textView 和 contentView 的 backgroundColor 改成 white；
+先把我們的 textView 和 contentView 的 **backgroundColor** 改成 white；
 ```swift
 textView.backgroundColor = .white
 contentView.backgroundColor = .white
 ```
 
-再到 setupContentView 中，增加一些東西：
+再到 **setupContentView** 中，增加一些東西：
 ```swift
 contentView.showsVerticalScrollIndicator = false
 contentView.showsHorizontalScrollIndicator = false
