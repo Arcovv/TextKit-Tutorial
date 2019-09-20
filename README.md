@@ -1,13 +1,4 @@
 # 使用 TextKit 製作橫向滾動 Reader
-## Outline
-- Demo 預覽
-- TextKit 簡單介紹
-- 準備
-- ReaderView
-- repeat-loop with UITextView
-- 優化一些樣式
-
-- - - -
 
 今天想教大家使用 TextKit 製作一款橫向閱讀的 Reader。
 
@@ -254,7 +245,7 @@ repeat {
 ```swift
 repeat {
     ...
-} while while glyphRange < numberOfGlyphs - 1 // 8
+} while glyphRange < numberOfGlyphs - 1 // 8
 
 contentView.contentSize = CGSize(
   width: viewSize.width * CGFloat(textViews.count),
